@@ -1,0 +1,28 @@
+﻿PLAYER 1 (HEROES)
+
+
+PlayerCharacter Blueprint Class:
+        -4 character classes (to represent the chosen classes of the party)
+        -controlled by mouse and keyboard (controller input to be added later)
+
+
+CONTROLS:
+1: Mouse
+        -click on each hero to select it
+                -choices after selection:
+                        1: move 
+                                -click on allowed tiles to draw path
+                                -path length depends on class selected
+                                -selected hero will follow drawn path
+                        2: attack
+                                -click on target to attack (enemy, wooden crates, etc.)
+                                -type of attack depends on class selected
+                        3: use item
+                                -opens up the inventory tab
+                                -click to select which item to use (potion, key, etc.)
+                                -once item is selected, click on target to use
+2: Tab
+        -hitting tab opens construction and inventory menu
+        -click on options to begin construction of items, equipment, etc.
+        -click on equipment, weapons, etc. to select them
+                -click on appropriate hero to equip weapon, armor, etc.
