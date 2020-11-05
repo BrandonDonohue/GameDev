@@ -1,0 +1,60 @@
+﻿Concept:
+STYLE:
+        Turn-based gameplay. 
+        Similar to Diablo, but in turns
+        Turns have no time limit, but the object is to take as little time during your turn as possible because the other player can get things ready during your turn while they are waiting.
+        The longer you take during your turn, the longer the other player has to prepare for their next turn
+
+
+
+
+
+
+
+
+
+
+
+
+HEROES:
+One player controls a party of adventurers and moves each one individually to explore a dungeon and fight enemies.
+
+
+VIEW:
+        Top-down
+CONTROLS:
+        Click/Select a hero and either click/select a place on the map to move him/her to. Or, click/select an item to pick up or enemy to attack.
+                Different classes of heroes can move further per turn than others.
+        Click/Select an item to begin construction. Depending on how strong the item is, it will take longer to finish constructing.
+        A treasure chest/armor crate, etc, can be constructed and once finished, can be placed in a room that no hero is currently occupying.
+        A ladder/bridge, etc, can be constructed and once finished, can be placed in any room a hero is currently occupying. They are used to avoid/overcome obstacles in a room.
+HEROES:
+        Health
+        Mana
+        Weapon/Armor
+        Items (keys, lanterns, potions, etc.)
+        Class (Knight, Mage, Thief, etc.)
+CONSTRUCTIONS:
+        Weapons
+        Armor
+        Potions
+        Keys
+        Treasure Chests, Armor Crates, etc
+        Ladders, Bridges, etc (obstacle avoiders)
+DUNGEON MASTER:
+        The second player lays out the dungeon and places enemies/obstacles. Once enemies have been placed, they can later be moved/controlled by the second player just like the heroes can be by the first player. Obstacles can be placed in a room currently not occupied by a hero.
+
+
+        VIEW:
+                2D Sprite based layout
+                Construction panel on the right side of screen
+                Map layout on left side
+                Enemy/Obstacles types on bottom
+        CONTROLS:        
+                Click/Select a room type from the construction panel to begin construction
+                        Depending on room size/type, it will take longer to build to be able to place
+        Once construction is finish, on player’s turn, the can drag/control the room to the map layout to add to the dungeon
+Click/Select a enemy type from the enemy panel to begin construction
+Just like rooms, it takes time to construct but longer than a room would
+Max of 3 enemies can be placed in a single room in a single turn
+Max of 2 obstacles can be placed in a single room in a single turn
